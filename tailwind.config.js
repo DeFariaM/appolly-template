@@ -14,6 +14,9 @@ module.exports = {
         black: "#232233",
         paragraph: "#6C6C72",
       },
+      backgroundImage: {
+        hero: "url('../public/images/hero-pattern.svg')",
+      },
     },
   },
   plugins: ["prettier-plugin-tailwindcss"],
