@@ -1,10 +1,13 @@
+import { About } from "@/components/About";
 import { HeroSection } from "@/components/HeroSection";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <HeroSection />
-      <h1 className="mt-20 text-black">Home</h1>
+      <About />
+
+      <div></div>
     </div>
   );
 }
