@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export const HeroSection = () => {
   return (
-    <div className="bg-hero h-fit-content absolute top-0 z-10 w-full">
-      <div className="container mx-auto my-20 flex flex-col justify-between p-4 lg:flex-row">
+    <section className="h-fit-content top-0 z-10 w-full bg-hero">
+      <div className="section">
         <div className="w-full justify-center lg:w-[40%]">
-          <div className="relative my-16 -ml-[1%] h-96 w-96 items-center bg-white lg:mx-auto">
-            <h1 className="text-brand p-6 text-center text-3xl font-bold">
+          <div className="relative my-20 -ml-[1%] h-96 w-96 items-center bg-white lg:mx-auto">
+            <h1 className="h1 text-brand">
               A GREAT APP MAKES YOUR LIFE BETTER
             </h1>
-            <p className="text-paragraph px-6 py-4">
+            <p className="px-6 py-4 text-paragraph">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
             </p>
@@ -43,6 +43,6 @@ export const HeroSection = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
